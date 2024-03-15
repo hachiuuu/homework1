@@ -1,0 +1,41 @@
+body {
+    /* 設定外邊距和內邊距為零 */
+    margin: 0;
+    padding: 0;
+    background-color: #64c025; /* 背景色 */
+}
+
+.container {
+    display: flex; /* 容器元素為Flexbox */
+    flex-direction: column; /* 佈局的主軸為垂直方向 */
+    align-items: center; /* 水平居中對齊 */
+    justify-content: center; /* 垂直居中對齊 */
+    height: 530px; /* 容器高度 */
+    background-color: #ffffff; /* 容器背景顏色 */
+    border: 20px solid #ffffff; /* 容器邊框寬度和顏色 */
+    border-radius: 20px; /* 容器邊框圓角 */
+    margin: 60px; /* 邊框間距 */
+}
+
+.header {
+    position: fixed; /* 標題位置 */
+    top: 20px;
+    font-size: 40px; /* 字體大小 */
+    color: #9D9D9D; /* 標題字體顏色 */
+}
+
+.counter {
+    background-color: #64c025; /* 背景顏色 */
+    padding: 20px 20px; /* 內邊距 */
+    border: 2px solid #64c025; /* 邊框實線寬度，顏色 */
+    border-radius: 5px; /* 邊框圓角 */
+    margin-top: 40px; /*下方外邊距*/
+    margin-bottom: 40px; /*下方外邊距*/
+    color: #ffffff; /* 文字顏色 */
+    font-size: 30px; /* 文字大小 */
+}
+
+.image-container img {
+    width: auto; /* 保持圖片比例 */
+    height: 260px; /* 圖片長度 */
+}
